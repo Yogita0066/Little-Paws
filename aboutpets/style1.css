@@ -1,0 +1,78 @@
+body{
+    background-color:aliceblue;
+}
+
+h1.pets{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    color: cadetblue;
+}
+
+.container{
+   height: 100vh;
+   margin-top: 50px;
+   padding: 20px;
+}
+
+.the-image{
+    border-radius: 15%;
+    margin-top: 20px;
+    padding:10px
+
+}
+
+.paw-row{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.paw-row1{
+
+  content: "";
+  clear: both;
+  display: table;
+    
+}
+
+.paw-column{
+    float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+
+h2.headingh2{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: darkslategray;
+    background: fixed;
+    background-color: floralwhite;
+    margin: 20px;
+}
+
+h4.h4-head{
+   font-family:  'Roboto Slab', serif;
+   color: darkcyan;
+   margin-top:20px;
+   text-align: center;
+   font-weight: 24;
+    
+}
+
+.footer{
+    background-color: whitesmoke;
+    width: 1348px;
+    height: 150px;
+    text-align: center;
+    color: black;
+    padding: 1%;
+    margin-top: 200px;
+  }
+
+  #team{
+    font-size: 18px;
+  }
+ 

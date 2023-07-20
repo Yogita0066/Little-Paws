@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    height: 100%;
+    background: aliceblue;
+  }
+
+.pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 10%;
+    background-color: darkcyan;
+  }
+
+.header1 {
+    font-size: 50px;
+    width:1200px;
+    text-align: center;
+    margin-right: 10%;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.extra{
+  color: #fff;
+}
+
+.header {
+    background:darkcyan;
+    font-size: 30px;
+    width:1100px;
+    text-align: center;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom:1%;
+    font-family: 'Quicksand', sans-serif;
+  }
+   
+.card-deck {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: 6%;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+}
+
+.start
+{
+  position: absolute;
+  top: 150%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  transition: all 0.1s ease;
+}
+
+.card-text
+{
+  color: #fff;
+}
+
+.card{
+  background-color: darkcyan;
+}
+
+.start.hide {
+  opacity: 0;
+  margin-top: 5px;
+  pointer-events: none;
+}
+
+.dog {
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+    transform: translate(50px, 10px) scale(0.9);
+    transition: all 0.0s ease;
+  }
+
+  .dog.show {
+    opacity: 1;
+    margin-top:auto;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    pointer-events: auto;
+    transform: translate(50px, 10px) scale(1);
+    transition: all 0.0s ease;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .cats {
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+    transform: translate(50px, 10px) scale(0.9);
+    transition: all 0.1s ease;
+  }
+  
+  .cats.show {
+    opacity: 1;
+    margin-top:auto;
+    pointer-events: auto;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    transform: translate(50px, 10px) scale(1);
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+  .bird {
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+    transform: translate(50px, 10px) scale(0.9);
+    transition: all 0.1s ease;
+  }
+  
+  .bird.show {
+    opacity: 1;
+    margin-top:auto;
+    pointer-events: auto;
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    transform: translate(50px, 10px) scale(1);
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+
+  .head{
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0.5%;
+    }
+
+    #webname{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 220%;
+        margin-top:0.5%;
+        font-family: 'Quicksand', sans-serif;
+        left:4%;
+        color:#C5D5EA;
+      }
+      
+      .footer{
+        background-color: whitesmoke;
+        width: 1348px;
+        height: 150px;
+        text-align: center;
+        color: black;
+        padding: 1%;
+        margin-top: 700px;
+      }
+    
+      #team{
+        font-size: 18px;
+      }
+
+.seen{
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkcyan;
+  font-weight:medium;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+      @media (max-width:575px)
+      {
+         .card-img-top
+         {
+           height: 250px;
+           width:400px;
+           padding-left: 2%;
+           padding-right: 2%;
+         }
+         .card{
+           height: 400px;
+           width:400px;
+          margin-left: 2%;
+           margin-bottom: 4%;
+         }
+         .header
+         {
+           font-size: 25px;
+            width:400px;
+         }
+         .card-title
+         {
+           font-size: 18px;
+         }
+         .card-text
+         {
+      
+           font-size: 15px;
+         }
+        }      

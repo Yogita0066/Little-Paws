@@ -1,0 +1,54 @@
+body,html{
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  background-color: #C5D5EA;
+}
+
+h3{
+  font-family: 'Great Vibes', cursive;
+  font-size: 350%;
+  color: #1e7075;
+}
+h4{
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-size: 200%;
+  color: #111D4A;
+  font-family: 'Quicksand', sans-serif;
+}
+.form-example{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  margin: 10px;
+  font-size: 15px;
+}
+input{
+  position: relative;
+  left:1%;
+  font-size: 100%;
+}
+#btn{
+  font-size: 20px;
+  color: white;
+  background-color:#2e72f1;
+  border:white solid;
+}
+p{
+  padding: 1%;
+  text-align: center;
+  color: darkslategrey;
+}
+h2{
+    text-align: center;
+    color: #111D4A;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+  }
+  
+
+@media (max-width:1028px) {
+#webname{
+  font-size: 100%;
+}
+}
