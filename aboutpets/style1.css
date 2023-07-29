@@ -30,15 +30,14 @@ h1.pets{
     
 }
 .paw-row1{
-
-  content: "";
+  content:" ";
   clear: both;
   display: table;
     
 }
 
 .paw-column{
-    float: left;
+  float: left;
   width: 25%;
   padding: 5px;
 }
@@ -57,19 +56,17 @@ h4.h4-head{
    font-family:  'Roboto Slab', serif;
    color: darkcyan;
    margin-top:20px;
-   text-align: center;
-   font-weight: 24;
+   text-align:justify;
+   font-weight: 20;
     
 }
 
-.footer{
+.footerr{
     background-color: whitesmoke;
-    width: 1348px;
-    height: 150px;
     text-align: center;
     color: black;
     padding: 1%;
-    margin-top: 200px;
+    margin-top: 170%;
   }
 
   #team{

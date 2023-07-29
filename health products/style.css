@@ -170,9 +170,7 @@ body {
   color: darkcyan;
   font-weight:medium;
   margin: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: justify;
   padding: 5px;
 }
 
